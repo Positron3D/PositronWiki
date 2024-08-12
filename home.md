@@ -2,7 +2,7 @@
 title: Welcome to the Positron 3D Wiki
 description: 
 published: true
-date: 2024-08-12T15:45:36.697Z
+date: 2024-08-12T15:46:24.956Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-02T20:25:10.846Z
@@ -25,3 +25,4 @@ To participate in editing this wiki or to make comments, you must join [The Posi
 6. [Run Input Shaper](https://www.klipper3d.org/Resonance_Compensation.html)
 7. [Tune your Sensorless Homing](https://wiki.positron3d.com/en/Printers/Positron/Software/PrinterConfigs#driver-strengths-sensorless-homing)
 8. Download the latest release version of [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer), a Positron profile is included. Hi Jeff.
+9. [Here's a XY Cube made just for Positron!](https://www.printables.com/model/936444-positron-posixy-cube)
