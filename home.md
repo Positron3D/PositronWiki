@@ -2,7 +2,7 @@
 title: Welcome to the Positron 3D Wiki
 description: 
 published: true
-date: 2024-08-08T20:52:19.422Z
+date: 2024-08-12T15:45:36.697Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-02T20:25:10.846Z
@@ -24,3 +24,4 @@ To participate in editing this wiki or to make comments, you must join [The Posi
 5. Manually level your bed
 6. [Run Input Shaper](https://www.klipper3d.org/Resonance_Compensation.html)
 7. [Tune your Sensorless Homing](https://wiki.positron3d.com/en/Printers/Positron/Software/PrinterConfigs#driver-strengths-sensorless-homing)
+8. Download the latest release version of [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer), a Positron profile is included. Hi Jeff.
