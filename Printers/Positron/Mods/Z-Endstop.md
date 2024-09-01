@@ -2,10 +2,10 @@
 title: Z-Endstop Upgrade
 description: 
 published: true
-date: 2024-07-20T10:22:48.293Z
+date: 2024-09-01T16:58:02.720Z
 tags: 
 editor: markdown
-dateCreated: 2024-06-10T02:00:42.048Z
+dateCreated: 2024-08-01T04:10:59.209Z
 ---
 
 # Introduction
@@ -23,7 +23,7 @@ This is a fairly easy mod requiring minimal soldering skills and minimum code ch
 
 ## Required Equipment / Tools
 ### Printed Parts
-- [Extruder Body with Endstop Attachment](https://github.com/Positron3D/Positron/blob/main/Printed%20Parts%20%26%20CAD%20Models/Current%20Release%20Printed%20Parts/Extruder/Extruder_Motor_Plate%20-%201x%20-%20Primary%20-%20V1.0.stl)
+- [Extruder Body with Endstop Attachment](https://github.com/Positron3D/Positron/blob/main/Printed%20Parts%20%26%20CAD%20Models/Current%20Release%20Printed%20Parts/Extruder/Extruder_Motor_Plate%20-%201x%20-%20Accent%20-%20V1.0.stl)
 
 ### Hardware
 -   [Microswitch with Lever](https://www.amazon.com/ThtRht-Printer-Endstop-Momentary-Switches/dp/B0CB85485W)
@@ -41,7 +41,7 @@ This is a fairly easy mod requiring minimal soldering skills and minimum code ch
 
 ### Supplemental Reading
 - [Board Reference](https://github.com/MotorDynamicsLab/PositronHardware/blob/master/PositronV3.2/Images/Mainboard%20Pinout.png)
-	- [<img src="/printers/positron/hardware/mainboard-pinout.svg" alt="Mainboard Pinout" style="background-color: white;"/>](https://raw.githubusercontent.com/MotorDynamicsLab/PositronHardware/master/PositronV3.2/Images/Mainboard%20Pinout.png)
+	- [<img src="https://raw.githubusercontent.com/MotorDynamicsLab/PositronHardware/master/PositronV3.2/Images/Mainboard%20Pinout.png" alt="Mainboard Pinout" style="background-color: white;" width="400"/>](https://raw.githubusercontent.com/MotorDynamicsLab/PositronHardware/master/PositronV3.2/Images/Mainboard%20Pinout.png)
 - [Board Schematics](https://github.com/MotorDynamicsLab/PositronHardware/tree/master/PositronV3.2/Hardware/LDO%20Positron%20Mainboard)
 
 # Guide
@@ -54,19 +54,19 @@ This is a fairly easy mod requiring minimal soldering skills and minimum code ch
     -   This should mean that the end stop has continuity when not triggered.
 3.  Mount it to the Extruder using M2x8 bolts, it will thread into plastic.
     
-    -   <img src="/printers/positron/mods/z_endstop/endstopphoto.png" alt="Endstop Photo" width="400"/>
+    -   <img src="/Printers/Positron/Mods/z_endstop/endstopphoto.png" alt="Endstop Photo" width="400"/>
 4.  Wire the endstop to Z\_ENDSTOP pins on the MCU
     
     -   GPIO3 is the pin, Z\_Stop on PCB Silk Screen
     -   Move the Jumper above the Z\_Endstop pin to the left, bridging `ZSTOP` and `SIG`
-    -   <img src="/printers/positron/mods/z_endstop/mcupins.png" alt="MCU Pins" width="400"/>
+    -   <img src="/Printers/Positron/Mods/z_endstop/mcupins.png" alt="MCU Pins" width="400"/>
     
 ## Printer.CFG Changes
 If you haven't already, [update your Printer.CFG to the latest release.](https://wiki.positron3d.com/en/Printers/Positron/Software/PrinterConfigs)
 
 The latest configs are already configured to use the Z_Endstop.
 
-![martychang.gif](/printers/positron/mods/z_endstop/martychang.gif)
+![martychang.gif](/Printers/Positron/Mods/z_endstop/martychang.gif)
 
 ## Comments, Feedback, and additional Troubleshooting.
 If things aren't working as expected, please note what is wrong and provide feedback to @TheNomad, The Positron Team, and LDO. You can also [join our Discord](https://discord.gg/5ZeAGEkU7G) to submit a support ticket, ask the community questions, and provide other feedback.
