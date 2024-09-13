@@ -2,7 +2,7 @@
 title: Welcome to the Positron 3D Wiki
 description: 
 published: true
-date: 2024-09-13T01:41:36.338Z
+date: 2024-09-13T01:41:46.925Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-02T20:25:10.846Z
@@ -28,4 +28,4 @@ To participate in editing this wiki or to make comments, you must join [The Posi
 9. [Here's a XY Cube made just for Positron!](https://www.printables.com/model/936444-positron-posixy-cube)
 
 # BOM
-[Here are all the parts needed to make a Positron.](https://docs.ldomotors.com/en/Positron/positron_v32/Positron_V32_Bom)
+[Here are all the parts needed to make a Positron V3.2.](https://docs.ldomotors.com/en/Positron/positron_v32/Positron_V32_Bom)
