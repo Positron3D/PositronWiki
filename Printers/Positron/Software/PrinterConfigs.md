@@ -2,13 +2,13 @@
 title: Printer Configs
 description: A brief on where to find the latest printer configs, and what settings you'll need to update.
 published: true
-date: 2024-07-16T19:30:13.713Z
+date: 2024-10-05T18:42:55.690Z
 tags: configs, klipper
 editor: markdown
-dateCreated: 2024-07-07T14:31:27.412Z
+dateCreated: 2024-08-01T04:12:16.244Z
 ---
 
-Click [here](https://github.com/Positron3D/Positron/tree/main/Software%2C%20Configs%2C%20Calibration/Klipper%20Configs) to get the latest configs.
+Click [here](https://github.com/Positron3D/PositronConfig) to get the latest configs.
 
 ## Z_Endstop
 First, in `Printer.cfg`, check your `endstop_pin`;
