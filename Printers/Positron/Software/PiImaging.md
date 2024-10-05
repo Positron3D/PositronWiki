@@ -2,7 +2,7 @@
 title: Pi Imaging
 description: 
 published: true
-date: 2024-08-20T14:03:42.264Z
+date: 2024-10-05T18:40:22.885Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-01T04:11:47.615Z
@@ -56,7 +56,7 @@ then power on the machine.
 	1. Find the IP address of touchscreen from the onscreen buttons, menu -> network. If the RpiHotspot is turned off the IP
   address will be listed on the top line. The HotSpot button can be toggled if the IP address has not appeared yet.
   2. From a computer open either a terminal, Windows PowerShell, or use a program like [Putty](https://www.putty.org/)
-  3. Next log into the touch using SSH, the default user name is "pi" and password is "raspbery". Below shows an example of a SSH command using Windows PowerShell and username "pi".
+  3. Next log into the touch using SSH, the default user name is "pi" and password is "raspberry". Below shows an example of a SSH command using Windows PowerShell and username "pi".
   ```
   ssh pi@EnterIpAdressHere
   ```
