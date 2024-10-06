@@ -2,11 +2,15 @@
 title: Pi Imaging
 description: 
 published: true
-date: 2024-10-05T18:40:39.085Z
+date: 2024-10-06T20:01:03.797Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-01T04:11:47.615Z
 ---
+
+# IMPORTANT
+All Positrons (as well as the image itself) use a default Pi password.
+[**CHANGE THIS AS SOON AS POSSIBLE.**](https://www.raspberrypi-spy.co.uk/2012/10/how-to-change-raspberry-pi-password/)
 
 # Touchscreen Controller Imaging and Backup 
 This is a guide to create a fresh Positron Klipper image for the Rapsberry PI CM4 touchscreen controller.
