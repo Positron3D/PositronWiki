@@ -2,10 +2,10 @@
 title: General Troubleshooting & Recommendations
 description: 
 published: true
-date: 2024-07-01T19:39:42.284Z
+date: 2024-10-11T19:42:42.116Z
 tags: 
-editor: undefined
-dateCreated: 2024-05-04T04:46:59.067Z
+editor: markdown
+dateCreated: 2024-08-01T04:09:46.525Z
 ---
 
 # General Care Instructions
@@ -27,6 +27,8 @@ The Positron can run warm as it uses the Base Plate as a heat sink, we recommend
 We recommend cleaning your bend every 3 to 4 prints. This is a non-textured borosilicate glass plate, so adhesives designed for glass surfaces will work well if you're struggling to get adhesion.
 
 Additionally, while the ITO coating on the back side of the glass is fairly scratch resistant, it's still a thin coating. Wherever possible, avoid any metallic objects coming in contact with this coating, as it's thinness could make the coating easily scratched. Scratching this coating could cause significant problems with heating your bed.
+
+Isopropyl Alcohol can dissolve ITO, so pleae use water to clean the back of the glass. IPA is fine for the printing side as it is just bare glass.
 
 ## Printing PETG
 
