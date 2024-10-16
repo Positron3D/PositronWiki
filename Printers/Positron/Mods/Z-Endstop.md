@@ -2,7 +2,7 @@
 title: Z-Endstop Upgrade
 description: 
 published: true
-date: 2024-09-01T16:58:02.720Z
+date: 2024-10-16T18:40:48.558Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-01T04:10:59.209Z
@@ -52,7 +52,7 @@ This is a fairly easy mod requiring minimal soldering skills and minimum code ch
 2.  Solder wires to Ground and “Normally Closed”
     
     -   This should mean that the end stop has continuity when not triggered.
-3.  Mount it to the Extruder using M2x8 bolts, it will thread into plastic.
+3.  Mount it to the Extruder using M2x10 bolts, it will thread into plastic.
     
     -   <img src="/Printers/Positron/Mods/z_endstop/endstopphoto.png" alt="Endstop Photo" width="400"/>
 4.  Wire the endstop to Z\_ENDSTOP pins on the MCU
